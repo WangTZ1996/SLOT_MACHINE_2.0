@@ -4,10 +4,17 @@
 	<title>来玩一把啊！</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="slot.css">
+	<audio src="mp3/coin.mp3" autoplay="autoplay"></audio>
+	<audio src="mp3/slot.mp3" hidden="true" ></audio>
 </head>
 <body>
+	<div class="outer">
+		<div class="sign "><img src="gamelogo/sign.jpg"></div>
+	<span class="sign_l"><img src="gamelogo/sign_l.jpg"></span>
+	<span class="sign_r"><img src="gamelogo/sign_r.jpg"></span>
+	<div class="sign_b"><img src="gamelogo/sign_b.jpg"></div>
 	<div class="machine center">
-		<p>欢迎光临二柱子皇家赌场</p>
+		<!-- <p>欢迎光临二柱子皇家赌场</p> -->
 		<div class="box center">
 			<div class="img" style="top:-100px">
 				<img src="gamelogo/1.jpg" class="pic1">
@@ -51,11 +58,13 @@
 			</div>
 			</div>
 		</div>
+	</div>
 		<!-- <button onclick="start()">start</button>
 		<button onclick="shutDown()">shutDown</button> -->
-		<button id="switch" class="center">start/stop</button>
+		<button id="switch" class="center"><img src="gamelogo/button.jpg"></button>
 	</div>
 
+	
 	<script type="text/javascript" src="slot_roll.js"></script>
 </body>
 </html>
